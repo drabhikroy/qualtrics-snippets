@@ -1,0 +1,6 @@
+Qualtrics.SurveyEngine.addOnReady(function() {
+    var newName = 'Start';
+    var nb = jQuery('#NextButton');
+    nb.val(newName);
+    nb.attr('title', newName);
+});

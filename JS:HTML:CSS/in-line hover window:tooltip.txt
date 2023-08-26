@@ -1,0 +1,50 @@
+CSS (Header)
+------------
+
+/* Tooltip container */
+.tip{
+    position: relative; 
+    display: inline-block;
+    cursor: help; /*change the cursor symbol to a question mark on mouse over*/
+    color: black; 
+    float: center;
+    font-style: bold;
+    text-decoration: none; /*remove underline*/
+}
+
+/*Tooltip text*/
+.tip span {
+    visibility: hidden;
+    width:80%;
+    text-align: left;
+    padding: .6em;
+    padding-left: 1em;
+    border: 1px solid [template("base font color")]'
+    border-radius: 0.5em;
+    font: 400 14px Arial;
+    color: #ffffff; 
+    background-color: #404040; 
+    display: inline-block;
+
+/*Position the tooltip text*/
+    position: fixed; 
+    bottom: 20px;
+    left: 10%;
+    z-index: 100;
+}
+
+.tip:hover span {
+    visibility: visible;
+}
+
+
+JS/HTML (Body)
+--------------
+<a href="javascript:void(0)" class="tip">
+
+Text to response to pop-up
+
+<span>
+This is the text that will display in the tooltip pop-up.
+</span>
+</a>

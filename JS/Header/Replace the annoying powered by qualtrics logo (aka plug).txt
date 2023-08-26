@@ -1,0 +1,11 @@
+<img height="38" src="https://PATHTOYOUGRAPHICIFAPPLICABLE" style="width: 40px; height: 38px; opacity: 0.5; float: right;" width="40" /> 
+
+<script>
+    var plug = document.getElementById('Plug');
+
+    if (plug) 
+
+	{
+	    plug.parentNode.removeChild(plug);
+	} 
+</script>

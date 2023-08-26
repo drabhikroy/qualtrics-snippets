@@ -1,0 +1,91 @@
+<span style="font-size:16px;">
+<span style="font-family:arial,helvetica,sans-serif;">BLAH BLAH BLAH.
+</span>
+</span>
+<br>
+<span class="myExpandItem">
+<div align="right">Header</div>
+
+<span class="myExpandBox">
+
+<style style="text/css">
+
+.hoverTable
+    {
+	width:100%; 
+	border-collapse:collapse; 
+    }
+
+.hoverTable td
+    { 
+	padding:7px;
+    }
+
+ 
+.hoverTable tr
+    {
+	background: white;
+    }
+
+.hoverTable tr:hover 
+    {
+	background-color: #002855;
+	color: white
+    }
+
+.hoverTable tr#tr01:hover 
+    {
+	background-color: white;
+	color: black
+    }
+
+.hoverTable td#td01:hover 
+    {
+	background-color: white;
+	color: black;
+    }
+
+table#t01 
+    {
+	overflow: hidden;
+	border-collapse: collapse;
+	background-color: white;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+    }
+
+</style>
+
+
+<table id="t01" ;="" class="hoverTable">
+<tbody>
+    <tr id="tr01">
+	<th class="col"><h3>Area</h3></th>
+	<th class="col"><h3><span style="font-weight: normal;">Description</span></h3></th>
+    </tr>
+
+    <tr>
+	<td id="td01" ;="" colspan="2"><hr></td>  
+    </tr>
+
+    <tr>
+	<td>ROW 1 LEFT COLUMN NONSENSE </td>
+	<td>ROW 1 RIGHT COLUMN NONSENSE </td>
+    </tr>
+
+    <tr>
+	<td>ROW 2 LEFT COLUMN NONSENSE </td>
+	<td>ROW 2 RIGHT COLUMN NONSENSE </td>
+    </tr>
+
+    <tr>
+	<td>ROW 3 LEFT COLUMN NONSENSE </td>
+	<td>ROW 3 RIGHT COLUMN NONSENSE </td>
+    </tr>
+
+</tbody>
+</table>
+
+</span> 
+</span>

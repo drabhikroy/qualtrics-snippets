@@ -1,0 +1,8 @@
+Qualtrics.SurveyEngine.addOnReady(function() {
+    var newName = 'Return';
+    var NextButton = $('PreviousButton');
+    if (NextButton.nodeName == 'INPUT') NextButton.setValue(newName);
+    else if ($('PreviousButton').nodeName == 'SPAN') $('PreviousButton').update(newName);
+    else NextButton.update(newName);
+    NextButton.setAttribute('title', newName);
+});

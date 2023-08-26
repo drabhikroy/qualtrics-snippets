@@ -1,0 +1,7 @@
+Qualtrics.SurveyEngine.addOnload(function() {
+    $(this.questionId).select('label').each(function(name) 
+    {
+     	name.style.padding = "15px";
+	name.style.width = inputWidth;
+    });
+});
